@@ -2,3 +2,18 @@ body
 {
     background: black;
 }
+label{
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+    font-size: 200%;
+}
+
+#title{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 400%;
+    color: white;
+    margin: auto;
+    width: fit-content;
+    padding: 1%;
+    /*margin-left: 25%;*/
+}
