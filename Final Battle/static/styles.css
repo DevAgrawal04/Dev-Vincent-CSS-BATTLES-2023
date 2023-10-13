@@ -1,7 +1,6 @@
 body
 {
-    background: linear-gradient(to bottom, #36e8b8 0%, #b7c91c 100%);
-    /* background-image: url('/static/landscape_background.png'); */
+    background-image: url('landscape_background.png');
     width:100vw;
     height:100vh;
 }
