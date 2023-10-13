@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz,wght@8..144,500;8..144,600;8..144,700&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    div.slide-left {
+      width:100%;
+      overflow:hidden;
+    }
+    div.slide-left h1{
+      animation: slide-left 8s;
+    }
+    
+    @keyframes slide-left {
+      from {
+        margin-left: 100%;
+        width: 300%; 
+      }
+    
+      to {
+        margin-left: 20%;
+        width: 100%;
+      }
+    }
+    </style>
+    
+<body>
+    <div class="slide-left">
+        <h1 id="title">Asian Games</h1>
+    </div>
+    <img src="static/logo.png" style="scale:20%;position:absolute;left:-30vw;top:-60vh;">
+    <img src="static/mascots.png" style="scale:100%;position:absolute;left:60vw;top:20vh;">
+    <div>
+        
+    </div>
+</body>
+</html>

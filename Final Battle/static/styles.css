@@ -1,6 +1,8 @@
 body
 {
     background: linear-gradient(to bottom, #36e8b8 0%, #b7c91c 100%);
+    width:100vw;
+    height:100vh;
 }
 label{
     font-family: 'Roboto Flex', sans-serif;
@@ -10,13 +12,14 @@ label{
 
 #title{
     font-family: 'Roboto Flex', sans-serif;
-    font-size: 400%;
+    font-size: 700%;
     color: white;
     margin: auto;
     width: fit-content;
-    padding: 1%;
-    /*margin-left: 25%;*/
+    margin-left: 20%;
 }
+    /*margin-left: 25%;*/
+
 
 /* #logo
 {
